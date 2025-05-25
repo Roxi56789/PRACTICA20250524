@@ -8,9 +8,9 @@ public class Ejercicio1Frutas {
         Scanner scanner = new Scanner(System.in);
         ArrayList<String> frutas = new ArrayList<>();
 
-        System.out.println("Por favor, ingresa 10 nombres de frutas:");
+        System.out.println("Por favor, ingresa 5 nombres de frutas:");
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 5; i++) {
             String fruta;
             while (true) {
                 System.out.print("Ingresa la fruta número " + (i + 1) + ": ");

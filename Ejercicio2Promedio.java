@@ -45,9 +45,9 @@ public class Ejercicio2Promedio { // Nombre del archivo principal
         // Similar a: Persona obj = new Persona();
         CalculadoraDePromedio miCalculadora = new CalculadoraDePromedio();
 
-        System.out.println("Por favor, ingresa 10 números enteros:");
+        System.out.println("Por favor, ingresa 5  números enteros:");
 
-        for (int i = 0; i < 12; i++) {
+        for (int i = 0; i < 5; i++) {
             int numeroIngresado;
             while (true) { // Bucle para asegurar que la entrada sea un entero válido
                 System.out.print("Ingresa el número entero " + (i + 1) + ": ");
